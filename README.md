@@ -62,19 +62,19 @@ export const environment = {
 - Run `npm install chance --save-dev`			// library to generate random fixtures for the tests (randomization of data/variables)
 
 Change the e2e target in package.json as below :
-`e2e: "cypress open"`
+- `e2e: "cypress open"`
 
 - Run `npm run e2e`
 
 Running above step creates the following file and dir:
 src/cypress.json -  global configuration options
-Cypress/	
-	- fixtures - has default data that can be used in the tests,
-	- integration - write e2e tests  (example : sample.spec.js),
-	- plugins - write plugins that can hook into different life cycle events in the testing process (ex: for logging , for transpiling if we write tests in ts,
+Cypress/
+	- fixtures - has default data that can be used in the tests
+	- integration - write e2e tests  (example : sample.spec.js)
+	- plugins - write plugins that can hook into different life cycle events in the testing process (ex: for logging , for transpiling if we write tests in ts
 	- support - to write custom/reusable commands that can overwrite the existing commands
 
-**** Cypress/integration dir : where all e2e tests reside.
+**** Cypress/integration dir : directory to write e2e testcases.
 
 Documentation :
 https://www.cypress.io/
