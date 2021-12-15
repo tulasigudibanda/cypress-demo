@@ -73,7 +73,7 @@ Running above step creates the following file and dir:
 - Cypress/plugins - write plugins that can hook into different life cycle events in the testing process (ex: for logging , for transpiling if we write tests in ts
 - Cypress/support - to write custom/reusable commands that can overwrite the existing commands
 
-**** Cypress/integration dir : directory to write e2e testcases.
+**** Cypress/integration dir : Directory to write e2e testcases ****
 
 Documentation :
 - https://www.cypress.io/
