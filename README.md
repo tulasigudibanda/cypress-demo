@@ -67,18 +67,17 @@ Change the e2e target in package.json as below :
 - Run `npm run e2e`
 
 Running above step creates the following file and dir:
-src/cypress.json -  global configuration options
-Cypress/
-	- fixtures - has default data that can be used in the tests
-	- integration - write e2e tests  (example : sample.spec.js)
-	- plugins - write plugins that can hook into different life cycle events in the testing process (ex: for logging , for transpiling if we write tests in ts
-	- support - to write custom/reusable commands that can overwrite the existing commands
+- src/cypress.json -  global configuration options
+- Cypress/fixtures - has default data that can be used in the tests
+- Cypress/integration - write e2e tests  (example : sample.spec.js)
+- Cypress/plugins - write plugins that can hook into different life cycle events in the testing process (ex: for logging , for transpiling if we write tests in ts
+- Cypress/support - to write custom/reusable commands that can overwrite the existing commands
 
 **** Cypress/integration dir : directory to write e2e testcases.
 
 Documentation :
-https://www.cypress.io/
-https://docs.cypress.io/guides/overview/why-cypress
+- https://www.cypress.io/
+- https://docs.cypress.io/guides/overview/why-cypress
 
 Cypress Setup Ref: 
-https://www.youtube.com/watch?v=7N63cMKosIE
+- https://www.youtube.com/watch?v=7N63cMKosIE
